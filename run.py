@@ -3,7 +3,7 @@ import routes
 
 if __name__ == "__main__":
     # enabling threading fixes 403 error on chrome, i think
-    # nvm, it doesn't work, idk
+    # nvm, it doesn't work, IDK
     app.run(host="0.0.0.0", port=8080, debug=True, threaded=True)
     # socket.run(app, host="0.0.0.0", port=80, debug=True) # need to use this instead of above line for websockets to
     # work

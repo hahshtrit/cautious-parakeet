@@ -1,7 +1,9 @@
 body {
 color: beige;
 }
-
+.nav-item nav-link {
+color: green;
+}
 .test {
     display: block;
     width: 300px;
